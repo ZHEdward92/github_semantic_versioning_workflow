@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/ZHEdward92/github_semantic_versioning_workflow/compare/v1.1.0...v1.1.1) (2025-08-30)
+
+
+### Performance Improvements
+
+* automate package version update ([2489b9b](https://github.com/ZHEdward92/github_semantic_versioning_workflow/commit/2489b9bf6bfd6dcc73ef547670b77fad41003b2c))
+* relocate update version script ([fdedde0](https://github.com/ZHEdward92/github_semantic_versioning_workflow/commit/fdedde0d304a5081e13457efd0fd2d4f7674978a))
+
 # [1.1.0](https://github.com/ZHEdward92/github_semantic_versioning_workflow/compare/v1.0.2...v1.1.0) (2025-08-30)
 
 
