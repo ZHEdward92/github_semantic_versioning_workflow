@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/ZHEdward92/github_semantic_versioning_workflow/compare/v1.0.2...v1.1.0) (2025-08-30)
+
+
+### Bug Fixes
+
+* update application msg ([52d9cfe](https://github.com/ZHEdward92/github_semantic_versioning_workflow/commit/52d9cfe8a4224fdeac65c2892fa831b6e4996012))
+
+
+### Features
+
+* update console msg ([4c90294](https://github.com/ZHEdward92/github_semantic_versioning_workflow/commit/4c90294fa8e51e84e170c951345156858d22c203))
+
 ## [1.0.2](https://github.com/ZHEdward92/github_semantic_versioning_workflow/compare/v1.0.1...v1.0.2) (2025-08-30)
 
 
