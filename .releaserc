@@ -1,8 +1,14 @@
 {
   "branches": ["main"],
+  "repositoryUrl": "https://github.com/ZHEdward92/github_semantic_versioning_workflow",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
-    "@semantic-release/changelog"
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md"
+      }
+    ]
   ]
 }
