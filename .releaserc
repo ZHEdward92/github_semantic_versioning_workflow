@@ -9,7 +9,6 @@
         "prepareCmd": "node scripts/update-version.js ${nextRelease.version}"
       }
     ],
-
     [
       "@semantic-release/changelog",
       {
@@ -19,7 +18,7 @@
     [
       "@semantic-release/git",
       {
-        "assets": ["logs/CHANGELOG.md"],
+        "assets": ["logs/CHANGELOG.md","package.json"],
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ]
