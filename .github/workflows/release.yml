@@ -23,9 +23,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Remove GitHub Actions default auth header
-        run: git config --local --unset-all http.https://github.com/.extraheader
-
       - name: Configure Git to use GH_TOKEN
         run: |
           git config --global user.name "semantic-release-bot"
