@@ -1,0 +1,15 @@
+{
+  "name": "github_semantic_versioning_workflow",
+  "version": "1.0.0",
+  "description": "simple app to test semantic versioning in github workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "ZHEdward92",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
