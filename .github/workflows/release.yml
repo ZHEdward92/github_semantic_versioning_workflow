@@ -35,3 +35,18 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx semantic-release
+      
+      - name: Update package.json version
+        if: success()
+        run: |
+          VERSION=$(git describe --tags `git rev-list --tags --max-count=1`)
+          echo "Updating package.json to version $VERSION"
+          jq --arg version "${VERSION#v}" '.version = $version' package.json > tmp.json && mv tmp.json package.json
+
+      - name: Commit updated package.json
+        run: |
+          git config user.name "semantic-release-bot"
+          git config user.email "semantic-release@github.com"
+          git add package.json
+          git commit -m "chore: update package.json version to $VERSION"
+          git push
