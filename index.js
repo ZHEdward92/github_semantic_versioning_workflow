@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello, this is simple Node.js project API!');
+  res.send('Hello, this is a simple Node.js project API!');
 });
 
 //Normally I just put port 3000 for every project.
