@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/ZHEdward92/github_semantic_versioning_workflow/compare/v1.2.0...v2.0.0) (2025-08-31)
+
+
+### Performance Improvements
+
+* change to port 3000 ([1e71c31](https://github.com/ZHEdward92/github_semantic_versioning_workflow/commit/1e71c3122dfd9352b0cac00ecbba666accf0cba0))
+
+
+### BREAKING CHANGES
+
+* Port has changed.
+
 # [1.2.0](https://github.com/ZHEdward92/github_semantic_versioning_workflow/compare/v1.1.1...v1.2.0) (2025-08-30)
 
 
